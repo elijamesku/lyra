@@ -1,6 +1,7 @@
 # Custom Botpress Ai Chatbot with Linux and Windows Integration
 ***Lyra AI***
 
+
 This project aimed to combine multiple technologies and processes to create and deploy a fully functional chatbot capable of advanced interactions. The goal was to:
 
 **Automate Knowledge Feeding**: Create a data scraper to gather relevant data from external sources and prepare it in a Botpress-compatible format.
@@ -72,6 +73,7 @@ Tools used:
 ```bash
 > ssh root@10.%%%.%%.%%%
 ```
+
 
 ## 2.Creating the data scraper  
 1. Created a python script to scrape content from targeted sites
