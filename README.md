@@ -37,6 +37,7 @@ Tools used:
 
 > sudo dnf install python3-pip -y
 ```
+![Screenshot](docs/Screenshot%202025-01-25%20205020.png)
 
 ***Install additional dependencies***  
 ```bash
@@ -58,6 +59,7 @@ Tools used:
 
 > sudo firewall-cmd --reload
 ```
+![Screenshot](docs/Screenshot%202025-01-25%20205138.png)
 
 ***On Windows***
 1. Enable OpenSSH client:
@@ -115,11 +117,13 @@ with open("linux_automation.json:, "w") as json_file:
 
 print("Data scraped and saved to linux_automation.json")
 ``` 
+![Screenshot](docs/scraper.png)
 
 ***Run the script***
 ```bash
 > python3 linux_automation.py
 ```
+![Screenshot](docs/successfulscrape.png)
 
 ## 3.Prepping data for botpress  
 ***Transform the scraped data into a botpress compatible JSON*** 
@@ -149,6 +153,7 @@ with open(output_file, "w") as f:
 
 print(f"Transformed data saved to {output_file}")
 ```
+![Screenshot](docs/json.png)
 
 ***Run the script***
 ```bash
@@ -181,6 +186,7 @@ for item in content_items:
     print(f"Error: {response.status_code} - {response.text}")
 
 ```
+![Screenshot](docs/Screenshot%202025-01-25%20101938.png)
 
 ## 4.Hosting the chatbot with nginx
 ***HTML file for the bot*** 
@@ -224,6 +230,7 @@ for item in content_items:
 </body>
 </html>
 ```
+![Screenshot](docs/html.png)
 
 ***Updated Nginx configuration***
 ```bash
@@ -242,6 +249,7 @@ server {
   }
 }
 ```
+![Screenshot](docs/Screenshot%202025-01-25%20123445.png)
 
 ***Restart Nginx***
 ```bash
@@ -250,4 +258,7 @@ server {
 
 ***Access online chatbot***
 Open browser and visit http://10.%%%.%%.%%%
+Non local link: https://cdn.botpress.cloud/webchat/v2.2/shareable.html?configUrl=https://files.bpcontent.cloud/2025/01/25/17/20250125175857-VEEMBPRX.json
+![Screenshot](docs/Screenshot%202025-01-25%20204414.png)
+![Screenshot](docs/Screenshot%202025-01-25%20204604.png)
 
