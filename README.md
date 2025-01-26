@@ -12,7 +12,16 @@ Develop a Fully Hosted Solution: Set up a web server (Nginx) to host the chatbot
 
 The result was a chatbot that not only serves as a responsive interface for user interactions but also leverages dynamic data scraping to stay updated and relevant
 
-Tools used: RHEL 9, Windows machine with OpenSSH installed, python3, pip, nginx, wget, nano, botpress studio local
+Tools used: 
+- RHEL 9
+- Windows machine with OpenSSH installed
+- python3
+- pip
+- nginx
+- wget
+- nano
+- botpress studio local
+- beautifulsoup
 
 ## 1.Setting up RHEL Environment  
 ***Update the system's software packages***  
