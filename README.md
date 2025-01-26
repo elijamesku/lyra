@@ -1,7 +1,18 @@
 # Custom Botpress Ai Chatbot with Linux and Windows Integration
 ***Lyra AI***
 
-This guide explains every step to deploy a Botpress chatbot with a data scraper, API integration, and web server hosting using Linux and Windows systems. It includes commands, configurations, and additional installations throughout the process.
+This project aimed to combine multiple technologies and processes to create and deploy a fully functional chatbot capable of advanced interactions. The goal was to:
+
+**Automate Knowledge Feeding**: Create a data scraper to gather relevant data from external sources and prepare it in a Botpress-compatible format.
+
+**Streamline Integration**: Use the Botpress API to seamlessly integrate data into the chatbot without manual uploads.
+
+**Cross-Platform Communication**: Establish robust communication between Linux and Windows systems to enable smooth data transfer and testing.
+Develop a Fully Hosted Solution: Set up a web server (Nginx) to host the chatbot on a Linux machine, ensuring it’s accessible via a browser with a clean and responsive design.
+
+The result was a chatbot that not only serves as a responsive interface for user interactions but also leverages dynamic data scraping to stay updated and relevant
+
+Tools used: RHEL 9, Windows machine with OpenSSH installed, python3, pip, nginx, wget, nano, botpress studio local
 
 ## 1.Setting up RHEL Environment  
 ***Update the system's software packages***  
@@ -207,7 +218,7 @@ for item in content_items:
 
 ***Updated Nginx configuration***
 ```bash
-sudo nano /etc/nginx/conf.d/bot.conf
+> sudo nano /etc/nginx/conf.d/bot.conf
 ```
 
 ```bash
@@ -221,4 +232,13 @@ server {
     try_files $uri $uri/ =404;
   }
 }
+```
+
+***Restart Nginx***
+```bash
+> sudo systemctl restart ngix
+```
+
+***Access online chatbot***
+Open browser and visit http://10.%%%.%%.%%%
 
