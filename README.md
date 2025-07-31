@@ -74,7 +74,6 @@ Tools used:
 > ssh root@10.%%%.%%.%%%
 ```
 
-
 ## 2.Creating the data scraper  
 1. Created a python script to scrape content from targeted sites
 ```bash
