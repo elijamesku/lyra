@@ -4,7 +4,7 @@
 
 This project aimed to combine multiple technologies and processes to create and deploy a fully functional chatbot capable of advanced interactions. The goal was to:
 
-**Automate Knowledge Feeding**: Create a data scraper to gather relevant data from external sources and prepare it in a Botpress-compatible format.
+**Automate Knowledge Feeding**: Create a data scraper to gather relevant data from external sources and prepare it in a Botpress-compatible format
 
 **Streamline Integration**: Use the Botpress API to seamlessly integrate data into the chatbot without manual uploads.
 
