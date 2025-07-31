@@ -9,7 +9,7 @@ This project aimed to combine multiple technologies and processes to create and 
 **Streamline Integration**: Use the Botpress API to seamlessly integrate data into the chatbot without manual uploads
 
 **Cross-Platform Communication**: Establish robust communication between Linux and Windows systems to enable smooth data transfer and testing.
-Develop a Fully Hosted Solution: Set up a web server (Nginx) to host the chatbot on a Linux machine, ensuring it’s accessible via a browser with a clean and responsive design.
+Develop a Fully Hosted Solution: Set up a web server (Nginx) to host the chatbot on a Linux machine, ensuring it’s accessible via a browser with a clean and responsive design
 
 The result was a chatbot that not only serves as a responsive interface for user interactions but also leverages dynamic data scraping to stay updated and relevant
 
