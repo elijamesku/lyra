@@ -257,7 +257,7 @@ server {
 > sudo systemctl restart ngix
 ```
 
-***Access online chatbot***
+***Link to access online chatbot***
 Open browser and visit http://10.%%%.%%.%%%
 Non local link: https://cdn.botpress.cloud/webchat/v2.2/shareable.html?configUrl=https://files.bpcontent.cloud/2025/01/25/17/20250125175857-VEEMBPRX.json
 ![Screenshot](docs/Screenshot%202025-01-25%20204414.png)
